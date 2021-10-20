@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, body * {
+	border: 0 none;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transform: translateZ(0.00001);
+	transform: translateZ(0.00001);
+}
+div {
+	position: absolute;
+}
+:focus {
+	outline: none;
+}
+::-moz-focus-inner {
+ border: 0;
+}
+/*-------------------------------- Content -------------*/
+#adWrap {
+	height: 867px;
+	width: 520px;
+	position: relative;
+}
+#stage {
+	background-color: #fff;
+	background-size: 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	border: 1px solid #999999;
+	height: 100%;
+	left: 0px;
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+	box-sizing: border-box;
+}
+#bg3 {
+	background: url(bg3b.jpg);
+	background-repeat: no-repeat;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 867px;
+	width: 520px;
+	background-size: contain;
+	opacity: 1;
+}
+#lights {
+	background: url(lights2.jpg);
+	background-repeat: no-repeat;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 126px;
+	width: 520px;
+	background-size: contain;
+	opacity: 0;
+}
+#bg2 {
+	background: url(bg2b.jpg);
+	background-repeat: no-repeat;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 867px;
+	width: 520px;
+	background-size: contain;
+	opacity: 1;
+}
+#bg1 {
+	background: url(bg1b.jpg);
+	background-repeat: no-repeat;
+	left: 0px;
+	top: 1px;
+	position: absolute;
+	height: 867px;
+	width: 520px;
+	background-size: contain;
+	opacity: 1;
+}
+#stage #messaging .copy {
+	color: #333366;
+	font: bold 40px/44px Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	width: 515px;
+	text-transform: uppercase;
+	top: 290px;
+}
+#copyright {
+	color: #999999;
+	font: normal 12px/12px Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	width: 515px;
+	top: 807px;
+	opacity: 0;
+}
+#stage #messaging sup {
+	line-height: 0;
+	font-size: 12px;
+	vertical-align: 26px;
+}
+#stage #messaging .copy#copy1 {
+	opacity: 0;
+}
+#stage #messaging .copy#copy2 {
+	opacity: 0;
+}
+#stage #messaging .copy#copy3 {
+	opacity: 0;
+}
+#stage #messaging .copy#copy4 {
+	opacity: 0;
+}
+#stage #messaging .copy#copy5 {
+	opacity: 0;
+	top: 380px;
+}
+#closed_box {
+	background: url(closedbox2.png);
+	background-repeat: no-repeat;
+	left: 108px;
+	top: 563px;
+	position: absolute;
+	height: 180px;
+	width: 300px;
+	background-size: contain;
+	opacity: 0;
+}
+#open_box {
+	background: url(box_front2.png);
+	background-repeat: no-repeat;
+	left: 108px;
+	top: 563px;
+	position: absolute;
+	height: 180px;
+	width: 300px;
+	background-size: contain;
+	opacity: 1;
+}
+#box_top {
+	background: url(boxinside2.png);
+	background-repeat: no-repeat;
+	left: 108px;
+	top: 565px;
+	position: absolute;
+	height: 43px;
+	width: 318px;
+	background-size: contain;
+	opacity: 1;
+}
+#flap_left {
+	background: url(flap_left2.png);
+	background-repeat: no-repeat;
+	left: 76px;
+	top: 502px;
+	position: absolute;
+	height: 108px;
+	width: 126px;
+	background-size: contain;
+	opacity: 1;
+}
+#flap_right {
+	background: url(flap_right2.png);
+	background-repeat: no-repeat;
+	left: 301px;
+	top: 486px;
+	position: absolute;
+	height: 107px;
+	width: 165px;
+	background-size: contain;
+	opacity: 1;
+}
+#goggles {
+	background: url(goggles2.png);
+	background-repeat: no-repeat;
+	left: 158px;
+	top: 470px;
+	position: absolute;
+	height: 119px;
+	width: 200px;
+	background-size: contain;
+	opacity: 1;
+}
+#truck {
+	background: url(truck2.png);
+	background-repeat: no-repeat;
+	left: 360px;
+	top: 465px;
+	position: absolute;
+	height: 475px;
+	width: 950px;
+	background-size: contain;
+	opacity: 0;
+}
+#priorityyou {
+	background: url(priorityyou.png);
+	background-repeat: no-repeat;
+	left: 147px;
+	top: 780px;
+	position: absolute;
+	height: 21px;
+	width: 225px;
+	background-size: contain;
+	opacity: 0;
+}
+#logo {
+	background: transparent url(logo.svg) 0px 0px / 100% auto no-repeat;
+	height: 61px;
+	left: 210px;
+	top: 175px;
+	width: 100px;
+
+}
+#click-tag {
+	background-color: transparent;
+	cursor: pointer;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+}
+#adWrap #cta {
+	background-color: #323366;
+	border-radius: 6px;
+
+	color: #ffffff;
+	font: bold 24px/40px Arial, sans-serif;
+
+	opacity: 0;
+	text-align: center;
+	top: 500px;
+	left: 130px;
+	vertical-align: middle;
+	width: 220px;
+	padding: 15px;
+}
+#click-tag:hover #cta {
+	background-color: #ededed;
+	color: #323366;
+}
